@@ -1,0 +1,447 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(131, 135, 158);
+    background: linear-gradient(90deg, rgba(131, 135, 158, 1) 40%, rgba(128, 137, 182, 1) 50%);
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.logo1 {
+    height: 100px;
+    width: 120px;
+    padding: 10px;
+}
+
+.nav-item {
+    margin: 20px;
+
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    position: relative;
+    color: white;
+    transition: color 0.3s;
+}
+
+/* Create the underline pseudo-element */
+.nav-item a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e42d2d;
+    transition: width 0.3s;
+}
+
+/* Expand the underline on hover */
+.nav-item a:hover::before {
+    width: 100%;
+}
+
+#element {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgb(232, 235, 237);
+
+}
+
+
+.control {
+    margin-top: 8rem;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.main-box{
+    position: relative;
+    border-radius: 20%;
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    overflow: hidden;
+    /* filter: grayscale(100%); */
+}
+.box{
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.main-box:hover .box{
+    transform: scale(1.5);
+    transition: 0.5s all ease-in-out;
+}
+
+.line {
+    margin: 4rem 5rem 0 5rem;
+}
+
+.connect {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 36px;
+}
+
+.but {
+    display: flex;
+    display: block;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.icon {
+    margin: 30px;
+    font-size: 50px;
+}
+
+.main {
+    background-color: #67abcf;
+    margin-top: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 5% 5vw 5% 5vw;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.items {
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    align-items: center;
+}
+
+.logo2 {
+    border-radius: 5%;
+    height: 300px;
+    width: 300px;
+}
+
+.exp {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 100px;
+    overflow: hidden;
+}
+
+.exp1 {
+    margin-left: 5vw;
+    padding: 20px;
+    text-align: center;
+    background-color: #151e2d;
+    color: #fff;
+    border-radius: 15px;
+    display: inline-block;
+
+}
+
+.exp1:hover {
+
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px #888888;
+    transform: scale(10);
+    z-index: 0;
+    transition-duration: 0.2s;
+}
+
+.exp2 {
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%
+}
+
+.display-engine1 {
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, .06274509803921569);
+    border-radius: 15px;
+}
+
+.display-engine1:hover {
+    background-color: rgba(106, 110, 74, 0.684);
+}
+
+.display-engine2:hover {
+    background-color: rgba(106, 110, 74, 0.684);
+}
+
+.display-engine3:hover {
+    background-color: rgba(106, 110, 74, 0.684);
+}
+
+.display-engine2 {
+    display: inline-flex;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, .06274509803921569);
+}
+
+.display-engine3 {
+    display: inline-flex;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, .06274509803921569);
+    margin-top: 100px;
+}
+
+.engine-logo {
+    border-radius: 50%;
+}
+
+.engine-section {
+    align-items: center;
+    display: inline;
+}
+
+
+.head2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.exp p {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+    display: block;
+}
+
+.engine-logo-png {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.engine-title {
+    color: black;
+    font-weight: bold;
+}
+
+.second {
+    background-color: aqua;
+}
+
+section {
+    padding: 2rem;
+}
+
+.Resume-div-main {
+    width: 90vw;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(100deg, rgba(2, 0, 36, 1) 0%, rgba(143, 119, 174, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 10px;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    overflow: hidden;
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+.Resume-title-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Resume-profile-Description-Name {
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Resume-profile-Description-Post {
+    color: #53cfd8;
+    font-size: 1.5rem;
+}
+
+.Resume-profile-Description-About {
+    font-size: 1rem;
+}
+
+.Resume-profile-picture {
+    height: 200px;
+    width: 200px;
+    background-color: #ffad01;
+    border-radius: 8px;
+}
+
+.Resume-profile-Description-main {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.Resume-Description-Name {
+    font-size: 3rem;
+    font-family: Raleway-Bold;
+}
+
+.Resume-Description-Post {
+    font-size: 1.3rem;
+    font-family: Raleway-SemiBold;
+    white-space: nowrap;
+    color: #53cfd8;
+}
+
+.Resume-Description-About {
+    padding-top: 3vh;
+    font-family: Raleway-Regular;
+}
+
+.Resume-div-divideline {
+    width: 90vw;
+    height: 0.5px;
+    opacity: .3;
+    background-color: #fff;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.Resume-div-second-container-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Resume-div-second-container-1 {
+    width: 40vw;
+}
+
+.Resume-div-second-container-title {
+    font-family: Raleway-Bold;
+    color: #53cfd8;
+    padding-top: 10vh;
+}
+
+.Resume-div-second-container-1-contact-div-contact-info {
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.Resume-div-second-container-1-contact-div-contact-info-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.Resume-div-second-container-1-contact-div-contact-info-detail {
+    padding-left: 0.5vw;
+    color: #fff;
+    font-family: Ubuntu-Light;
+    display: flex;
+    align-items: center;
+}
+
+.Resume-div-second-container-title {
+    font-family: Raleway-Bold;
+    color: #53cfd8;
+    padding-top: 10vh;
+}
+
+.Resume-div-details-title {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3vh;
+    color: #fff;
+    font-family: Raleway-Bold;
+}
+
+.Resume-div-details-description {
+    padding-top: 1vh;
+    color: #fff;
+    font-family: Raleway-Light;
+}
+
+.Resume-div-second-container-3 {
+    width: 40vw;
+}
+
+
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background: #333;
+    color: #fff;
+    border-top: 2px solid rgb(26, 17, 17);
+    height: 5rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+       
+    }
+
+    .exp {
+        grid-template-columns: 1fr;
+        /* Set it to a single column layout */
+        gap: 20px;
+        /* Add some gap between the elements */
+    }
+
+    .exp1 {
+        margin-right: 5vw;
+    }
+
+    .exp2 {
+        margin-right: 0;
+        /* Remove the right margin */
+        margin-top: 20px;
+        /* Add some top margin to separate it from exp1 */
+        display: list-item;
+        margin-right: 5vw;
+        margin-left: 6vw;
+        list-style: none;
+    }
+
+    /* Add any other necessary styling for mobile here */
+    .main {
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    .logo2 {
+        width: 300px;
+    }
+
+}
